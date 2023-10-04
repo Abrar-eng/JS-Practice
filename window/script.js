@@ -22,5 +22,11 @@ window.onload = function() {
     alert('The page is loaded')
   };
 
+//GlobalScope
+
+var x = 5;
+console.log(window.x) 
+console.log(x) 
+
 
 
