@@ -16,6 +16,11 @@ window.setTimeout(function() {
     window.alert("Delayed alert!");
 }, 1000);
 
+//Event Handling 
+
+window.onload = function() {
+    alert('The page is loaded')
+  };
 
 
 
