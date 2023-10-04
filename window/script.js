@@ -6,6 +6,10 @@ window.alert("Hello, World!");
 
 window.open("https://www.facebook.com");
 
+//Location
+
+console.log(window.location);
+
 //Manipulate Location
 
 window.location.href = "https://www.twitter.com";
@@ -27,6 +31,17 @@ window.onload = function() {
 var x = 5;
 console.log(window.x) 
 console.log(x) 
+
+//Storage
+
+setsorage.setItem('Hasan', 'Abrar') //Key and value: string
+setstorage.getItem('Hasan') // Key : string
+
+
+
+
+
+
 
 
 
