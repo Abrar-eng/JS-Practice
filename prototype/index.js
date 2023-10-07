@@ -18,5 +18,24 @@ myDate.getYear = function () {
   console.log("something else!");
 };
 
-myDate.getYear();
+myDate.getYear(); // 'something else!'
+
+//Setting a prototype
+
+const personPrototype = {
+    greet() {
+      console.log("hello!");
+    },
+  };
+  
+  const carl = Object.create(personPrototype);
+  carl.greet(); // hello!
+
+  //Own properties
+
+  const irma = new Person("Irma");
+
+console.log(Object.hasOwn(irma, "name")); // true
+console.log(Object.hasOwn(irma, "greet")); // false
+
 
