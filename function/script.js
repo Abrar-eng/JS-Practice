@@ -15,3 +15,10 @@ var result = greet("Abrar");
 
 // Display the result in an alert dialog
 window.alert(result);
+
+
+//Return Statement
+
+function add(a, b) {
+    return a + b;
+}
