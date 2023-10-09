@@ -4,13 +4,13 @@ An array is a fundamental data structure in JavaScript used to store a collectio
 Here's an explanation of arrays in JavaScript with some example code:
 
 ### Creating an Array,
-`js`
+```js
 // Creating an array of numbers
 const numbers = [1, 2, 3, 4, 5];
 
 // Creating an array of strings
 const fruits = ["apple", "banana", "cherry"];
-
+```
 ### Accessing Elements,
 
 console.log(numbers[0]); // Outputs: 1
