@@ -52,6 +52,35 @@ const doubledNumbers = numbers.map(function(number) {
 });
 ```
 
+# What is Callback Function?
 
+A callback function, often referred to simply as a "callback," is a function passed as an argument to another function in JavaScript. Callbacks are a fundamental concept in JavaScript and are widely used in asynchronous programming, event handling, and other scenarios where you want to execute a function after a specific task or event has completed.
+
+Here are the key characteristics and uses of callback functions,
+
+1. Passing Functions as Arguments
+2. Asynchronous Operations
+3. Event Handling
+4. Error Handling
+
+Here's a simple example of using a callback function
+```js
+// Define a function that takes a callback as an argument
+function doSomethingAsync(callback) {
+  setTimeout(function () {
+    console.log("Task completed!");
+    // Call the callback function
+    callback();
+  }, 1000);
+}
+
+// Define a callback function
+function callbackFunction() {
+  console.log("Callback executed!");
+}
+
+// Call the function with the callback
+doSomethingAsync(callbackFunction);
+```
 
 
